@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T03:42:44.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="6AYlPrwtMZkeUVxnujYY" version="21.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-17T03:47:33.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="uY0ooPzLxVMSgBdhCAsk" version="21.1.8" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1195" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jpMDB658xM3ZWiIn-4ZV-138" value="管理员" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="320" y="900" width="280" height="570" as="geometry" />
+          <mxGeometry x="330" y="900" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="jpMDB658xM3ZWiIn-4ZV-139" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
@@ -15,14 +15,14 @@
             <mxPoint x="115" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jpMDB658xM3ZWiIn-4ZV-141" value="管理登陆" style="" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
-          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jpMDB658xM3ZWiIn-4ZV-142" value="user action" style="" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
-          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="jpMDB658xM3ZWiIn-4ZV-143" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="jpMDB658xM3ZWiIn-4ZV-138" source="jpMDB658xM3ZWiIn-4ZV-141" target="jpMDB658xM3ZWiIn-4ZV-142">
+        <mxCell id="jpMDB658xM3ZWiIn-4ZV-190" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jpMDB658xM3ZWiIn-4ZV-138" source="jpMDB658xM3ZWiIn-4ZV-141" target="jpMDB658xM3ZWiIn-4ZV-189">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpMDB658xM3ZWiIn-4ZV-141" value="管理登陆" style="" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
+          <mxGeometry x="60" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpMDB658xM3ZWiIn-4ZV-142" value="设置讨论模块" style="" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
+          <mxGeometry x="40" y="219" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jpMDB658xM3ZWiIn-4ZV-144" value="post command" style="" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
           <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
@@ -30,14 +30,14 @@
         <mxCell id="jpMDB658xM3ZWiIn-4ZV-145" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="jpMDB658xM3ZWiIn-4ZV-138" source="jpMDB658xM3ZWiIn-4ZV-142" target="jpMDB658xM3ZWiIn-4ZV-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jpMDB658xM3ZWiIn-4ZV-146" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#FF0000;endArrow=open;endFill=1;rounded=0" edge="1" parent="jpMDB658xM3ZWiIn-4ZV-138" source="jpMDB658xM3ZWiIn-4ZV-144" target="jpMDB658xM3ZWiIn-4ZV-141">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="160" y="290" as="sourcePoint" />
-            <mxPoint x="260" y="190" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="250" />
-            </Array>
+        <mxCell id="jpMDB658xM3ZWiIn-4ZV-182" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.159;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.323;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jpMDB658xM3ZWiIn-4ZV-138" source="jpMDB658xM3ZWiIn-4ZV-141" target="jpMDB658xM3ZWiIn-4ZV-142">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="210" as="sourcePoint" />
+            <mxPoint x="110" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jpMDB658xM3ZWiIn-4ZV-189" value="设置内容标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jpMDB658xM3ZWiIn-4ZV-138">
+          <mxGeometry x="140" y="220" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jpMDB658xM3ZWiIn-4ZV-147" value="用户" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
           <mxGeometry x="600" y="900" width="280" height="570" as="geometry" />
